@@ -55,7 +55,7 @@ const Hero = () => {
 
 
       {/* Hero Section */}
-      <div class=" flex items-center justify-center relative h-screen  z-10">
+      <div class="mt-24 flex items-center justify-center relative h-screen  z-10">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-24">
           <div class="flex flex-col items-center md:flex-row md:items-center md:gap-16">
             <div class="max-w-2xl text-center md:text-left">
