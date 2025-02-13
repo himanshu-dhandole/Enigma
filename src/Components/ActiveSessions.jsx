@@ -63,7 +63,7 @@ const ActiveSessions = () => {
         ))}
       </div>
 
-      <div className="relative z-10 container mx-auto px-4 py-12">
+      <div className="mt-24 relative z-10 container mx-auto px-4 py-12">
         <h2 className="text-4xl font-bold text-white mb-8 text-center">Active Sessions</h2>
 
         <div className="max-w-2xl mx-auto">

@@ -5,15 +5,12 @@ import TrackingList from './Components/TrackingList';
 import TargetCamLoc from './Components/TargetCamLoc';
 import Request from './Components/Request';
 import ActiveSessions from './Components/ActiveSessions';
+import { Outlet } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
       <Nav />
-      <Hero />
-      <TrackingList />
-      <TargetCamLoc />
-      <Request />
-      <ActiveSessions />
+      <Outlet />
     </div>
   );
 }
