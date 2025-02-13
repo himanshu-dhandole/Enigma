@@ -7,19 +7,22 @@ const Request = () => {
       id: 1,
       name: "Sarah Johnson",
       relationship: "Family Member",
-      time: "2 hours ago"
+      time: "2 hours ago",
+      slot: "10:00 hrs"
     },
     {
       id: 2, 
       name: "Mike Peters",
       relationship: "Friend",
-      time: "5 hours ago"
+      time: "5 hours ago",
+      slot: "09:00 hrs"
     },
     {
       id: 3,
       name: "Emma Wilson",
       relationship: "Family Member", 
-      time: "1 day ago"
+      time: "1 day ago",
+      slot: "02:00 hrs"
     }
   ]);
 
@@ -69,6 +72,7 @@ const Request = () => {
                     <h3 className="text-xl font-semibold text-white">{request.name}</h3>
                     <p className="text-gray-400">{request.relationship}</p>
                     <p className="text-sm text-gray-500">{request.time}</p>
+                    <p className="text-sm text-white">slot : {request.slot}</p>
                   </div>
                 </div>
                 <div className="flex gap-3">
