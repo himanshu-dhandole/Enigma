@@ -81,7 +81,7 @@ const TargetCamLoc = () => {
           {/* Camera Feed */}
           <div className="backdrop-blur-xl bg-white/5 rounded-2xl p-6 border border-white/10">
             <div className="flex items-center gap-2 mb-4">
-              <Camera className="text-white w-6 h-full" />
+              <Camera className="text-white h-full" />
               <h3 className="text-xl font-semibold text-white">Live Camera</h3>
             </div>
             <div className="rounded-xl overflow-hidden">
@@ -103,7 +103,7 @@ const TargetCamLoc = () => {
             </div>
             <div className="h-[400px] rounded-xl overflow-hidden">
               <img
-                src="./assets/map.png"
+                src={map}
                 alt="Map Placeholder"
                 className="w-full h-full object-cover"
               />
